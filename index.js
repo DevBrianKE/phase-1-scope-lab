@@ -2,17 +2,18 @@
 var customerName = 'bob'
 
 
-function upperCaseCustomerName(){
-    customerName = customerName.toUpperCase()
-    return customerName
+function upperCaseCustomerName() {
+    customerName = customerName.toUpperCase();
 }
+
 
 function setBestCustomer() {
-    bestCustomer = 'not bob'
+    bestCustomer = 'not bob'; // Creates a global variable called bestCustomer
 }
 
+
 function overwriteBestCustomer() {
-    bestCustomer = 'maybe bob'.
+    bestCustomer = 'maybe bob'
 }
 
 const leastFavoriteCustomer  = 'intialValue'
